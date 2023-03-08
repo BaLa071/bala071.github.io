@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+.link
+{
+  font-size: large;
+  display: flex;
+  gap: 5%;
+  justify-content: flex-end;
+  padding: 3%;
+  padding-top: 30px;
+  width: 1310px;
+}
+.link a{
+  color:white;
+  text-decoration: none;
+}
+.link a:hover,.button a:hover{
+  color: aqua;
+  font-size: larger;
+}
+.header{
+  position:fixed;
+  width: 100%;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+body{
+    background-image: url("C:/Users/balaj/OneDrive/Desktop/C/.vscode/space.jpg");
+    font-family: "DM Sans";
+}
+.project{
+    color: white;
+    padding-left: 10%;
+    padding-top: 10%;
+    width: 40%;
+    line-height: 30px;
+}
+.background{
+    color: chartreuse;
+}
+.demo{
+  text-align: left;
+  color: white;
+  padding-top: 12%;
+  padding-left: 10%;
+}
+.imag a{
+  border: 2px;
+  border-style: solid;
+  border-color:chartreuse;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin-top: 10vh;
+  margin-left: 35px;
+}
+.imag a:hover{
+  color: aqua;
+  font-size: larger;
+}
+.img_border{
+  border: 10px;
+  border-style: solid;
+  border-color: white;
+}
+.link1{
+  padding-top: 20px;
+}
+.link1 a{
+  color: white;
+  text-decoration: none;
+}
+.link1 a:hover{
+  color: aqua;
+  font-size: larger;
+}
+.project2{
+  padding-top: 10%;
+}
+.project1{
+  padding-top: 10%;
+}

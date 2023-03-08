@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+.link
+{
+  font-size: large;
+  display: flex;
+  gap: 5%;
+  justify-content: flex-end;
+  padding: 3%;
+  padding-top: 30px;
+  width: 1310px;
+}
+.link a{
+  color:floralwhite;
+  text-decoration: none;
+}
+.link a:hover,.button a:hover{
+  color: aqua;
+  font-size: larger;
+}
+.header{
+  position:fixed;
+  width: 100%;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+body{
+  background-image:url(C:/Users/balaj/OneDrive/Desktop/C/.vscode/space.jpg) ;
+  font-family: "DM Sans";
+}
+.form
+{
+  text-align: left;
+  margin-left: 10%;
+  color: white;
+  padding-top: 9%;
+}
+.profile{
+  margin-top: 30px;
+  margin-left: 10%;
+  padding:20px;
+  border: 2px;
+  border-style: solid;
+  border-color: chartreuse;
+  width: 7%;
+}
+.profile a{
+  text-decoration: none;
+  color:white;
+}
+.profile a:hover{
+  color: aqua;
+  font-size: larger;
+}
+.form1{
+  padding-top: 10px;
+  margin-left: 10%;
+  color: white;
+}
+i{
+  color: white;
+}

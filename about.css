@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+body{
+    background-image: url("C:/Users/balaj/OneDrive/Desktop/C/.vscode/space.jpg");
+    font-family: "DM Sans";
+}
+.about
+{
+    text-align: center;
+    padding-top: 50px;
+    font-size: x-large;
+    color: white;
+}
+.intro{
+    
+    color: white;
+    text-align: center;
+    padding-left: 25%;
+    width: 50%;
+    line-height: 30px;
+}
+.link
+{
+  font-size: large;
+  display: flex;
+  gap: 5%;
+  justify-content: flex-end;
+  padding: 3%;
+  padding-top: 30px;
+  width: 1310px;
+}
+.link a{
+  color:floralwhite;
+  text-decoration: none;
+}
+.link a:hover,.button a:hover{
+  color: aqua;
+  font-size: larger;
+}
+.header{
+  position:fixed;
+  width: 100%;
+  margin-left: -10px;
+  margin-top: -10px;
+  background-color: black;
+}
+.split{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: larger;
+    justify-content: space-between;
+    width: 100%;
+}
+.my_skill{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: -10px;
+    line-height: 30px;
+    border: 2px;
+    width: 70%;
+    gap: 40px;
+    
+}
+.left{
+    padding-left: 20px;
+    color: white;
+    font-size: medium;
+    line-height: 30px;
+    width: 52%;
+    line-height: 30px;
+}
+.right{
+    padding-right: 10px;
+    color: white;
+    padding-top: -20px;
+}
+.colors{
+    color:black;
+     border: 2px;
+    border-style: solid;
+    border-color: chartreuse;
+    width: fit-content;
+    background-color:chartreuse; 
+    text-align: center;
+    width: 140px;
+}
+.background{
+    color: black;
+    border-color:chartreuse;
+    background-color: chartreuse;
+    border-style: solid;
+    width: 60px;
+    text-align: center;
+}
+.qualification{
+    border: 2px;
+    border-style: solid; 
+    border-color: chartreuse;
+    width: fit-content;
+    padding: 20px;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.qualification a{
+    color: white;
+    text-decoration: none;
+}
+.qualification a:hover{
+    color: aqua;
+}
+#Highlight{
+    color: chartreuse;
+}
+.education{
+    color: white;
+    padding-left: 10%;
+    padding-top: 6%;
+}
+.border{
+    /* border: 2px;
+    border-style: solid;
+    border-color: chartreuse; */
+    line-height: 30px;
+    width: 32%;
+    padding-top: -30px;
+}
+.space{
+    padding-top: -5%;
+}
