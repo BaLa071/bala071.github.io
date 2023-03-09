@@ -24,7 +24,7 @@
   margin-top: -10px;
 }
 body{
-  background-image:url(./space.jpg) ;
+  background-image:url(space.jpg) ;
   font-family: "DM Sans";
 }
 .form
@@ -58,4 +58,17 @@ body{
 }
 i{
   color: white;
+}
+.mail{
+  display: flex;
+}
+.email{
+  text-decoration: none;
+  color: white;
+  padding-top: 16px;
+  padding-left: 4px;
+}
+.email:hover{
+  color: aqua;
+  font-size: larger;
 }
